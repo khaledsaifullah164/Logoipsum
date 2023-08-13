@@ -1,0 +1,252 @@
+/* COMMON CSS START  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* COMMON CSS END  */
+/* NAVBAR CSS START  */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.navbar {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* NAVBAR CSS END  */
+/* BANNER CSS START  */
+#banner {
+  background: url(../images/BANNER.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  position: relative;
+}
+.tagline {
+  text-align: center;
+}
+.tagline h1 {
+  font-family: "Inter", sans-serif;
+  color: #ffff;
+  font-size: 56px;
+  font-weight: bold;
+  padding-top: 105px;
+}
+.tagline p {
+  font-family: "Inter", sans-serif;
+  color: #ffff;
+  font-size: 22px;
+  font-weight: 400;
+  width: 560px;
+  margin: auto;
+  padding-top: 33px;
+  padding-bottom: 650px;
+}
+
+/* BANNER CSS END  */
+/*  CHOOSING US CSS START  */
+#choosing {
+  background: #e8e7e7;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.why h2 {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.luxury h2 {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luxury p {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.luxury span {
+  color: #e58411;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+/* CHOOSING US CSS END  */
+/* INSPIRATION  CSS START  */
+#inspiration {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.common-title h2 {
+  color: #131313;
+  font-family: "Inter", sans-serif;
+  font-size: 47px;
+  font-weight: bold;
+  text-align: center;
+}
+.common-title p {
+  color: #181818;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 26px;
+  padding-bottom: 32px;
+  text-align: center;
+  width: 790px;
+  margin: 0 auto;
+}
+/* INSPIRATION  CSS END  */
+/* BEST SELLING  CSS START  */
+#selling {
+  background: #e8e7e7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.card {
+  background: #d9d9d9;
+  border: none;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top: 15px;
+  width: 24%;
+}
+.card-body {
+  background: #ffff;
+}
+.price-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.card-body span {
+  color: #8d8d8d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.card-body span {
+  color: #8d8d8d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.card-body h5 {
+  color: #0d1b39;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.star {
+  color: #e58411;
+}
+.price-wrapper .price h3 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+}
+.add {
+  background: #e58411;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.add a {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/* BEST SELLING  CSS END  */
+/* OUR BLOGS   CSS START  */
+#blogs {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.blog-right h2 {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.blog-right p {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.blog-right span {
+  color: #e58411;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* OUR BLOGS   CSS END  */
+/* CLIENTS  CSS START  */
+#clients {
+  padding-bottom: 100px;
+}
+.clients-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/* CLIENTS  CSS END  */
+/* FOOTER  CSS START  */
+#footer {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-logo {
+  color: #ffff;
+}
+.footer-logo p {
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.footer-common {
+  color: #ffff;
+}
+.footer-common ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.color {
+  color: #e58411;
+}
+/* FOOTER  CSS END  */
